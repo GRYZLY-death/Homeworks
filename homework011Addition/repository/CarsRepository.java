@@ -11,9 +11,3 @@ public interface CarsRepository {
     default List<Car> findAll() {
         return null;
     }
-
-    List<String> findNumbersByColorOrMileage(String color, long mileage);
-    long countUniqueModelsInPriceRange(long minPrice, long maxPrice);
-    String findColorOfMinCostCar();
-    double findAverageCostByModel(String model);
-}

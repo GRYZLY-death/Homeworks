@@ -15,8 +15,3 @@
 1. Откройте проект
 2. Нажмите правой кнопкой на `test/Main.java`
 3. Выберите `Run 'Main.main()'`
-
-### Через командную строку
-```bash
-javac -d out model/*.java repository/*.java test/*.java
-java -cp out test.Main
